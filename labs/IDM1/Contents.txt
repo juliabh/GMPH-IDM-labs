@@ -1,3 +1,0 @@
-IDM1 contains the notebooks from weeks 1-4 of your degree course, IDM2 contains those from week 5-8, and IDM3 contains those from weeks 9-11.
-
-Good luck! 
