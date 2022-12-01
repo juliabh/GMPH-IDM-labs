@@ -9,10 +9,10 @@ To run this environment locally for testing, Docker is required - see the [Docke
 
 With docker set up, to build the image run the following command in the command line:
 
-```docker build -t gmph-idm-labs/learner-env -f learner-environment/Dockerfile .```s
+    docker build -t gmph-idm-labs/learner-env -f learner-environment/Dockerfile .
 
 To run the image use the following
 
-```docker run -p 8888:8888 gmph-idm-labs/learner-env```
+    docker run -p 8888:8888 gmph-idm-labs/learner-env
 
 then navigate to `localhost:8888` in your browser.
