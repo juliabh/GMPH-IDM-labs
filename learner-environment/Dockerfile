@@ -10,6 +10,7 @@ RUN fix-permissions /home/$NB_USER
 
 # Install required packages (anything not here was already installed in the base image)
 RUN Rscript -e "devtools::install_version('deSolve', '1.34', repos='https://cran.ma.imperial.ac.uk')"
+RUN Rscript -e "devtools::install_version('GillespieSSA', '0.6.2', repos='https://cran.ma.imperial.ac.uk')"
 
 USER root
 
