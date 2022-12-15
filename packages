@@ -2,5 +2,6 @@ library(deSolve)
 library(tidyverse)
 library(ggplot2)
 library(reshape2)
+library(GillespieSSA) # Note still need to add this to the required_packages.csv list
 
 # at some point we will replace the use of reshape2...
